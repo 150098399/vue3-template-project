@@ -7,7 +7,7 @@ type Theme = "light" | "dark" | "green";
 export const useThemeStore = defineStore(
   "theme",
   () => {
-    const currentTheme = ref<Theme>("light");
+    const currentTheme = ref<Theme>("light"); 
     const themeList = ["light", "dark", "green"] as const;
 
     /* 主题切换方法 */
