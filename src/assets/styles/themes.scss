@@ -1,0 +1,20 @@
+/* 浅色 */
+:root[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --primary: #409eff;
+}
+
+/* 深色 */
+:root[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #f5f5f5;
+  --primary: #529b2e;
+}
+
+/* 可选：更多主题 */
+:root[data-theme="green"] {
+  --bg-color: #f1f8f4;
+  --text-color: #00c853;
+  --primary: #00c853;
+}

@@ -1,1 +1,1 @@
-# vue3-template-project
+# Vue 3 + Pinia + Vite + Typescript + axios
