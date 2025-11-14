@@ -27,6 +27,7 @@ onMounted(() => {
   color: #fff;
   border: none;
   padding: 6px 12px;
+  box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
 }
