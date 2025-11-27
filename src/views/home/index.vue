@@ -20,8 +20,7 @@ import ThemeToggle from "@/components/ThemeToggle.vue";
 <style lang="scss" scoped>
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 1fr 1fr;
   gap: 20px 20px;
 }
 
